@@ -5,7 +5,7 @@ ServiceDesk Plus is a game changer in turning IT teams from daily fire-fighting 
 
  
 ##### PRE-REQUISITES to use mesdp and DNIF  
-Outbound access required for github
+Outbound access required for github to clone the plugin
 
 | Protocol   | Source IP  | Source Port  | Direction	 | Destination Domain | Destination Port  |  
 |:------------- |:-------------|:-------------|:-------------|:-------------|:-------------|  
@@ -74,6 +74,6 @@ trigger_plugin:
 ```
 5. #### For using userdefined templates 
    Move to the `‘/dnif/<Deployment-key>/trigger_plugins/mesdp/’` folder path and paste your template.xml file here.
-   ####Note:  
- Refer to default.xml template to create your customised templates
+   #### Note:  
+       Refer to default.xml template to create your customised templates
   
