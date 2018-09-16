@@ -1,0 +1,5 @@
+trigger_plugin:
+  MESDP_API_KEY: <Add_your_technical_key_here>
+  MESDP_SERVER: <Add_your_server/host_details_here>
+  MESDP_PORT: <Add_your_mesdp_port_here>
+  MESDP_NAME: <Add_your_requester_name_here>
