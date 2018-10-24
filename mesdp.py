@@ -24,7 +24,7 @@ def select_template(dt,tmp_name):
         url = "https://{0}:{1}/sdpapi/request?OPERATION_NAME=ADD_REQUEST&TECHNICIAN_KEY={2}".format(mesdp_server,
                                                                                                     mesdp_port,
                                                                                                     mesdp_key)
-        args = {'OPERATION_NAME': 'ADD_REQUEST', 'TECHNICIAN_KEY': '5D6E2445-ACA7-4FFD-862D-47C26C91CC83', 'format': 'xml',
+        args = {'OPERATION_NAME': 'ADD_REQUEST', 'TECHNICIAN_KEY': mesdp_key, 'format': 'xml',
                 'INPUT_DATA': xml_content}
 
         response = requests.post(url, params=args, verify=False)
